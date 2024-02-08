@@ -3,6 +3,15 @@
 version = "1.0"
 installed = "default"
 
+local textBox = Instance.new("TextBox")
+textBox.Size = UDim2.new(0, 180, 0, 30)
+textBox.Position = UDim2.new(0.5, -90, 0.3, -15)
+textBox.Font = Enum.Font.SourceSans
+textBox.TextSize = 14
+textBox.TextColor3 = Color3.new(0, 0, 0)
+textBox.PlaceholderText = "Your Version"...version..."| Newest Version"
+textBox.Parent = frame
+
 print("✅Version"..version.." | Newest Version !")
 --Install
 
