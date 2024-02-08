@@ -1,7 +1,7 @@
 -- i belive i didn't skidded but i am the worst luau developer ever.
-
-version = "1.0"
-installed = "default"
+local gui = nil
+local version = "1.0"
+local installed = "default"
 
 local textBox = Instance.new("TextBox")
 textBox.Size = UDim2.new(0, 180, 0, 30)
