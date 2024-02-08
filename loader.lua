@@ -9,7 +9,7 @@ textBox.Position = UDim2.new(0.5, -90, 0.3, -15)
 textBox.Font = Enum.Font.SourceSans
 textBox.TextSize = 14
 textBox.TextColor3 = Color3.new(0, 0, 0)
-textBox.PlaceholderText = "Your Version"...version..."| Newest Version"
+textBox.PlaceholderText = "Your Version"..version.."| Newest Version"
 textBox.Parent = frame
 
 print("✅Version"..version.." | Newest Version !")
